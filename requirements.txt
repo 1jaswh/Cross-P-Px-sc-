@@ -1,0 +1,29 @@
+# Streamlit frontend
+streamlit<1.30
+
+# Backend & API
+fastapi==0.111.0
+uvicorn[standard]==0.23.2
+requests==2.31.0
+python-dotenv==1.0.1
+websockets==11.0.3
+
+# Data & Finance
+yfinance==0.2.27
+ccxt==2.1.120
+forex-python==1.10
+
+# Charts
+plotly==5.16.1
+pandas==2.1.1
+numpy==1.25.2
+
+# Security
+bcrypt==4.1.1
+
+# Database
+sqlite-utils==3.38.0
+redis==5.3.7
+
+# Optional: avoid pyarrow segfault
+pyarrow<12.0.0
